@@ -50,7 +50,7 @@ Q5  SELECT * FROM people WHERE gender = 1 ORDER BY age DESC;
 
 Q6  peopleテーブルの'name','email','age',のつのカラムだけ取得し'department_id` = 1に該当する人を`created_at`の順番でレコードを表示をせよ;
 
-Q7  SELECT * FROM people WHERE age BETWEEN 20 AND 29 AND gender = '2' or  age BETWEEN 40 AND 49 AND gender = '1';
+Q7  SELECT NAME FROM people WHERE age BETWEEN 20 AND 29 AND gender = '2' or  age BETWEEN 40 AND 49 AND gender = '1';
 
 Q8  SELECT * FROM people WHERE department_id ='1'
 
